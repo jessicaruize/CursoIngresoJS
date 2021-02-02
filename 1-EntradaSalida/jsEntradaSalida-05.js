@@ -5,9 +5,9 @@ function mostrar()
 {	
 	//creamos variables para guardar los datos del usuario y conseguimos el valor de cada caja de texto con el Id.
 	
-let nombre
-let apellido
-let edad
+let nombre;
+let apellido;
+let edad;
 nombre = document.getElementById('txtIdNombre').value;
 apellido = prompt ("Ingrese su apellido");
 edad = document.getElementById('txtIdEdad').value;	
