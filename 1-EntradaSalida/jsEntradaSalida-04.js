@@ -11,6 +11,6 @@ function mostrar()
 nombre = prompt ("Ingrese su nombre" , "Ejemplo Romina");
 
 	//copio el nombre que tengo guardado en la variable nombre dentro de la caja de texto enbebida en la pagina
-document.getElementById("txtIdNombre").value = nombre;
+document.getElementById('txtIdNombre').value = nombre;
 }
 
