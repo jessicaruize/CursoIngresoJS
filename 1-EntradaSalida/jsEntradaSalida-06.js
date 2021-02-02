@@ -16,5 +16,8 @@ numeroDos = parseInt(numeroDos);
 sumar = numeroUno + numeroDos;
 alert("la suma es:" + sumar);
 
+//parseInt() paranumeros entero
+//parsefloat() para numeros decimales
+
 }
 
