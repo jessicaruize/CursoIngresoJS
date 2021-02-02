@@ -8,7 +8,7 @@ function mostrar()
 	let nombre;
 
 	//guardo el la variable nombre el texto que escribio el usuario dentro de la ventana prompt
-nombre = prompt ("ingrese su nombre" , "ejemplo Romina");
+nombre = prompt ("Ingrese su nombre" , "Ejemplo Romina");
 
 	//copio el nombre que tengo guardado en la variable nombre dentro de la caja de texto enbebida en la pagina
 document.getElementById("txtIdNombre").value = nombre;
