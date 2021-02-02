@@ -9,7 +9,7 @@ let nombre;
 let apellido;
 let edad;
 nombre = document.getElementById('txtIdNombre').value;
-apellido = prompt ("Ingrese su apellido");
+apellido = prompt ("Ingrese su apellido", "aquí");
 edad = document.getElementById('txtIdEdad').value;	
 alert ("Usted se llama " + nombre + " " + apellido + " y tiene " + edad + " años." );
 	

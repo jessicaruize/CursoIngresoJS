@@ -7,14 +7,14 @@ function sumar()
 	let numeroUno;
 	let numeroDos;
 	var sumar;
-numerouno = document.getElementById('txtIdNumeroUno');
+numeroUno = document.getElementById('txtIdNumeroUno');
 numeroDos = document.getElementById('txtIdNumeroDos');
 
-numeroUno = parseInt(numerouno);
+numeroUno = parseInt(numeroUno);
 numeroDos = parseInt(numeroDos);
 
 sumar = numeroUno + numeroDos;
-alert ("la suma es:" + suma);
+alert("la suma es:" + sumar);
 
 }
 
