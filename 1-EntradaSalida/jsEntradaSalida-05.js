@@ -11,7 +11,7 @@ let edad
 nombre = document.getElementById('txtIdNombre').value;
 apellido = prompt ("Ingrese su apellido");
 edad = document.getElementById('txtIdEdad').value;	
-alert ("Usted se llama " + nombre + apellido + " y tiene " + edad + " años." );
+alert ("Usted se llama " + nombre + " " + apellido + " y tiene " + edad + " años." );
 	
 	
 }
