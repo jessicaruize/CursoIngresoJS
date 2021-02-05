@@ -25,7 +25,7 @@ ancho = parseInt(ancho);
 perimetro = ( largo + ancho ) * 2;
 metroAlambre = perimetro * 3;
 
-alert ("La cantidad de alambre que requiere es: " + metroAlambre + " metros");
+alert ("La cantidad de alambre que requiere es: " + metroAlambre "." );
 
 
 }
