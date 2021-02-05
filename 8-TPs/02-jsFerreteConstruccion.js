@@ -25,7 +25,7 @@ ancho = parseInt(ancho);
 perimetro = ( largo + ancho ) * 2;
 metroAlambre = perimetro * 3;
 
-alert ("La cantidad de alambre que requiere es: " + metroAlambre * " metros");
+alert ("La cantidad de alambre que requiere es: " + metroAlambre + " metros");
 
 
 }
@@ -42,8 +42,7 @@ function Circulo ()
 	perimetro = 2 * Math.PI * radioTerreno ;
 
 	metroAlambre = perimetro * 3;
-	alert ("Ingresar valores en metros");
-	alert ("La cantidad de alambre que requiere es: " + metroAlambre + " metros.")
+	alert ("La cantidad de alambre que requiere es: " + metroAlambre + ".")
 
 	//perimetro = 2 * PI * radio
 	// PI =3,14  = Math.PI
@@ -74,7 +73,7 @@ function Materiales ()
 	cemento = area * 3;
 	cal = area * 2;
 
-	alert ("Necesita " + cemento + " cantidad de cemento y " + cal + " cantidad de cal.");
+	alert ("Necesita " + cemento + " bolsas de cemento y " + cal + " bolsas de cal.");
 
 
 }
