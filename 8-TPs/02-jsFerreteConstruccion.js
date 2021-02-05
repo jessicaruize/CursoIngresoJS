@@ -8,19 +8,24 @@ function Rectangulo ()
 {
 //"txtIdLargo"
 //"txtIdAncho"
-//"txtIdRadio"
-var largo;
-var ancho;
-var radioTerreno;
-var metroAlambre;
+
+let largo;
+let ancho;
+let perimetro;
+let metroAlambre;
+
 
 largo = document.getElementById('txtIdLargo').value;
 ancho = document.getElementById('txtIdAncho').value;
+
 largo = parseInt(largo);
 ancho = parseInt (ancho);
-radioTerreno = (largo * 2) + (ancho * 2);
-document.getElementById('txtIdRadio').value = radioTerreno;
-metroAlambre = radioTerreno * 3;
+
+
+perimetro = (largo + ancho) * 2;
+metroAlambre = perimetro *  3;
+
+
 alert ("Ingresar medidad en metros")
 alert ("La cantidad de alambre que requiere es: " + metroAlambre * "metros");
 
@@ -28,9 +33,48 @@ alert ("La cantidad de alambre que requiere es: " + metroAlambre * "metros");
 }
 function Circulo () 
 {
-	
+	//'txtIdRadio'
+	let radioTerreno;
+	let perimetro;
+	let metroAlambre;
+
+	radioTerreno = document.getElementById('txtIdRadio').value;
+	radioTerreno = parseInt(radioTerreno);
+
+	perimetro = 2 * Math.PI * radioTerreno ;
+
+	metroAlambre = perimetro * 3;
+	alert ("Ingresar valores en metros");
+	alert ("La cantidad de alambre que requiere es: " + metroAlambre + "metros.")
+
+	//perimetro = 2 * PI * radio
+	// PI =3,14  = Math.PI
+
+
 }
 function Materiales () 
 {
+	//area m2 = base m * haltura m
+	// 1m2 = 3 cemento + 2 cal
+	// Math.ceil (redondea para arriba)
+ 	//toFied
+
+	let largo;
+	let ancho;
+	let area;
+	let cemento;
+	let cal;
 	
+	largo = document.getElementById('txtIdLargo').value;
+	ancho = document.getElementById('txtIdAncho').value;
+
+	area = (largo + ancho) * 2
+
+	cemento = area * 3
+	cal = area * 2
+
+	alert ("Necesita " + cemento * " cantidad de cemento y " + cal + " cantidad de cal.")
+
+
+
 }
