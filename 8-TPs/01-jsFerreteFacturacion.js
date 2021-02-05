@@ -11,7 +11,7 @@ function Sumar ()
 	let precio1;
 	let precio2;
 	let precio3;
-	let sumar;
+	let suma;
 
 	precio1 = document.getElementById('txtIdPrecioUno').value;
 	precio2 = document.getElementById('txtIdPrecioDos').value;
@@ -21,9 +21,9 @@ function Sumar ()
 	precio2 = parseInt (precio2);
 	precio3 = parseInt(precio3);
 
-	sumar = precio1 + precio2 + precio3;
+	suma = precio1 + precio2 + precio3;
 
-	alert ("la suma de los preductos es: " + sumar);
+	alert ("La suma de los preductos es: " + suma);
 
 
 }
@@ -32,7 +32,7 @@ function Promedio ()
 	let precio1;
 	let precio2;
 	let precio3;
-	let promedio;
+	let promedio1;
 
 	precio1 = document.getElementById('txtIdPrecioUno').value;
 	precio2 = document.getElementById('txtIdPrecioDos').value;
@@ -41,9 +41,9 @@ function Promedio ()
 	precio2 = parseInt(precio2);
 	precio3 = parseInt(precio3);
 
-	promedio = (precio1 + precio2 + precio3) / 3
+	promedio1 = (precio1 + precio2 + precio3) / 3
 
-	alert ("la promedio de los preductos es: " + promedio);
+	alert ("La promedio de los preductos es: " + promedio1);
 
 
 }
@@ -55,7 +55,7 @@ function PrecioFinal ()
 	let precio3;
 	let precioTotal;
 	let iva
-	let PrecioFinal;
+	let PrecioFinal1;
 
 	precio1 = document.getElementById('txtIdPrecioUno').value;
 	precio2 = document.getElementById('txtIdPrecioDos').value;
@@ -65,12 +65,9 @@ function PrecioFinal ()
 	precio3 = parseInt(precio3);
 	precioTotal = precio1 + precio2 + precio3;
 	iva = precioTotal * 0.21;
-	PrecioFinal = precioTotal + iva;
+	PrecioFinal1 = precioTotal + iva;
 
-	alert ("El precio final de los preductos es: " + PrecioFinal);
-
-
+	alert ("El precio final de los preductos es: " + PrecioFinal1);
 
 
-	
 }
