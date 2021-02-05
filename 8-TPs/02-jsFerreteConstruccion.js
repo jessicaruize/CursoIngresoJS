@@ -25,8 +25,6 @@ ancho = parseInt(ancho);
 perimetro = ( largo + ancho ) * 2;
 metroAlambre = perimetro * 3;
 
-
-alert ("Ingresar medidad en metros")
 alert ("La cantidad de alambre que requiere es: " + metroAlambre * " metros");
 
 
@@ -45,7 +43,7 @@ function Circulo ()
 
 	metroAlambre = perimetro * 3;
 	alert ("Ingresar valores en metros");
-	alert ("La cantidad de alambre que requiere es: " + metroAlambre.toFixed + " metros.")
+	alert ("La cantidad de alambre que requiere es: " + metroAlambre + " metros.")
 
 	//perimetro = 2 * PI * radio
 	// PI =3,14  = Math.PI
@@ -71,13 +69,12 @@ function Materiales ()
 	largo = parseInt(largo);
 	ancho = parseInt(ancho);
 
-	area = (largo + ancho) * 2;
+	area = (largo * ancho) * 2;
 
 	cemento = area * 3;
 	cal = area * 2;
 
-	alert ("Necesita " + cemento * " cantidad de cemento y " + cal + " cantidad de cal.");
-
+	alert ("Necesita " + cemento + " cantidad de cemento y " + cal + " cantidad de cal.");
 
 
 }
