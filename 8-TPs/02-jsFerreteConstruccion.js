@@ -19,15 +19,15 @@ largo = document.getElementById('txtIdLargo').value;
 ancho = document.getElementById('txtIdAncho').value;
 
 largo = parseInt(largo);
-ancho = parseInt (ancho);
+ancho = parseInt(ancho);
 
 
-perimetro = (largo + ancho) * 2;
-metroAlambre = perimetro *  3;
+perimetro = ( largo + ancho ) * 2;
+metroAlambre = perimetro * 3;
 
 
 alert ("Ingresar medidad en metros")
-alert ("La cantidad de alambre que requiere es: " + metroAlambre * "metros");
+alert ("La cantidad de alambre que requiere es: " + metroAlambre * " metros");
 
 
 }
@@ -45,7 +45,7 @@ function Circulo ()
 
 	metroAlambre = perimetro * 3;
 	alert ("Ingresar valores en metros");
-	alert ("La cantidad de alambre que requiere es: " + metroAlambre + "metros.")
+	alert ("La cantidad de alambre que requiere es: " + metroAlambre.toFied + " metros.")
 
 	//perimetro = 2 * PI * radio
 	// PI =3,14  = Math.PI
@@ -57,7 +57,7 @@ function Materiales ()
 	//area m2 = base m * haltura m
 	// 1m2 = 3 cemento + 2 cal
 	// Math.ceil (redondea para arriba)
- 	//toFied
+ 	//toFied (solo dos numero despues de la coma)
 
 	let largo;
 	let ancho;
@@ -68,12 +68,15 @@ function Materiales ()
 	largo = document.getElementById('txtIdLargo').value;
 	ancho = document.getElementById('txtIdAncho').value;
 
-	area = (largo + ancho) * 2
+	largo = parseInt(largo);
+	ancho = parseInt(ancho);
 
-	cemento = area * 3
-	cal = area * 2
+	area = (largo + ancho) * 2;
 
-	alert ("Necesita " + cemento * " cantidad de cemento y " + cal + " cantidad de cal.")
+	cemento = area * 3;
+	cal = area * 2;
+
+	alert ("Necesita " + cemento * " cantidad de cemento y " + cal + " cantidad de cal.");
 
 
 
