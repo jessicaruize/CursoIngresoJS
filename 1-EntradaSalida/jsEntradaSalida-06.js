@@ -11,14 +11,11 @@ function sumar()
     num1 = document.getElementById('txtIdNumeroUno').value;
 	num2 = document.getElementById('txtIdNumeroDos').value;
 
+	num1 = parseInt(num1);
+	num2 = parseInt(num2);
 
-	alert (num1);
-	alert (num2);
-	//num1 = parseInt(num1);
-	//num2 = parseInt(num2);
-
-	//sumar = num1 + num2;
-	//alert("la suma es:" + sumar);
+	sumar = num1 + num2;
+	alert("la suma es:" + sumar);
 
 //parseInt() paranumeros entero
 //parsefloat() para numeros decimales
