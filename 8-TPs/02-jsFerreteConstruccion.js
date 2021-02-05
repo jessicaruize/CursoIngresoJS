@@ -45,7 +45,7 @@ function Circulo ()
 
 	metroAlambre = perimetro * 3;
 	alert ("Ingresar valores en metros");
-	alert ("La cantidad de alambre que requiere es: " + metroAlambre.toFied + " metros.")
+	alert ("La cantidad de alambre que requiere es: " + metroAlambre.toFixed + " metros.")
 
 	//perimetro = 2 * PI * radio
 	// PI =3,14  = Math.PI
