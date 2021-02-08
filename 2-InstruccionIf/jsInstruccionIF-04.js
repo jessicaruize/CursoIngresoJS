@@ -18,3 +18,10 @@ function mostrar()
 	}
 
 }//FIN DE LA FUNCIÓN
+/* if(condicion1)
+{
+	if(condicion2)
+	{
+	
+	}
+}*/
