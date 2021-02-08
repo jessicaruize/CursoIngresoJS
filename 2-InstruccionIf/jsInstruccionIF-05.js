@@ -4,7 +4,17 @@
 function mostrar()
 {
 	let edad;
+	edad = document.getElementById('txtIdEdad');
+	edad = parseInte(edad);
 
-edad = document.getElementById('txtIdEdad');
+	if(edad<13 || edad>17)
+	{
+		alert("No es adolecente");
+	}
 
 }//FIN DE LA FUNCIÓN
+
+/*if(! (edad>12 && edad<18) )
+{
+	alert("No es adolecente");
+} */

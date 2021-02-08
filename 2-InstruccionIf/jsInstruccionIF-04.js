@@ -4,7 +4,7 @@
 
 function mostrar()
 {
-	let edad
+	let edad;
 	edad = document.getElementById('txtIdEdad');
 	edad = parseInt(edad);
 
