@@ -20,7 +20,7 @@ function mostrar()
 //operadores 
 //aritmeticos: +, -, *, /, %
 //relacionales: >, <, >=, <=, !=, ==
-//logicos: &&(and), || (or),
+//logicos: &&(and), || (or), ! (no)
 
 /*
 false = 0

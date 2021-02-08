@@ -1,6 +1,10 @@
+//txtIdEdad
+//Al ingresar una edad solo debemos informar si la persona NO es adolescente.
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edad;
+
+edad = document.getElementById('txtIdEdad');
 
 }//FIN DE LA FUNCIÓN
