@@ -10,10 +10,12 @@ function sumar()
 let num1;
 let num2;
 let sumar;
-num1 = parseInt(document.getElementById('txtIdNumeroUno').value);
-num2 = parseInt(document.getElementById('txtIdNumeroDos').value);
+num1 = document.getElementById('txtIdNumeroUno').value;
+num2 = document.getElementById('txtIdNumeroDos').value;
+num1 = parseInt(num1);
+num2= parseInt(num2);
 sumar = num1 + num2;
-alert ("La suma es:" + sumar);
+alert ("La suma es: " + sumar);
 }
 
 function restar()
@@ -22,10 +24,12 @@ function restar()
 let num1;
 let num2;
 let restar;
-num1 = parseInt(document.getElementById('txtIdNumeroUno').value);
-num2 = parseInt(document.getElementById('txtIdNumeroDos').value);
+num1 = document.getElementById('txtIdNumeroUno').value;
+num2 = document.getElementById('txtIdNumeroDos').value;
+num1 = parseInt(num1);
+num2 = parseInt(num2);
 restar = num1 - num2;
-alert ("La resta es:" + restar);
+alert ("La resta es: " + restar);
 
 }
 
@@ -34,8 +38,10 @@ function multiplicar()
 let num1;
 let num2;
 let multiplicar;
-num1 = parseInt(document.getElementById('txtIdNumeroUno').value);
-num2 = parseInt(document.getElementById('txtIdNumeroDos').value);
+num1 = document.getElementById('txtIdNumeroUno').value;
+num2 = document.getElementById('txtIdNumeroDos').value;
+num1 = parseInt(num1);
+num2 = parseInt(num2);
 multiplicar = num1 * num2;
 alert ("La multiplicacón es:" + multiplicar);
 }
@@ -45,9 +51,11 @@ function dividir()
 let num1;
 let num2;
 let restar;
-num1 = parseInt(document.getElementById('txtIdNumeroUno').value);
-num2 = parseInt(document.getElementById('txtIdNumeroDos').value);
+num1 = document.getElementById('txtIdNumeroUno').value;
+num2 = document.getElementById('txtIdNumeroDos').value;
+num1 = parseInt(num1);
+num2 = parseInt(num2);
 dividir = num1 / num2;
-alert ("La división es:" + dividir);
+alert ("La división es: " + dividir);
 }
 

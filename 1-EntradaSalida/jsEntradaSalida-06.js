@@ -15,7 +15,7 @@ function sumar()
 	num2 = parseInt(num2);
 
 	sumar = num1 + num2;
-	alert("la suma es:" + sumar);
+	alert("la suma es: " + sumar);
 
 //parseInt() paranumeros entero
 //parsefloat() para numeros decimales

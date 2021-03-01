@@ -3,7 +3,7 @@
 
 function mostrar()
 {
-	ler edad;
+	let edad;
 	edad = document.getElementById('txtIdEdad').value;
 	edad = parseInt(edad);
 
@@ -11,10 +11,6 @@ function mostrar()
 	{
 		alert("Es mayor de edad");
 	}
-
-	//tomo la edad  
-	alert("ok");
-	
 
 }//FIN DE LA FUNCIÓN
 
