@@ -17,8 +17,68 @@ Curso de ingreso UTN FRA
 
 function mostrar()
 {
-	var estacionIngresada;
-	estacionIngresada =txtIdEstacion.value;
+	var base;
+	var estacion;
+	var destino;
+	var mensaje;
+	var porcentajeDiez;
+	var porcentajeVeinte;
+	estacion = txtIdEstacion.value;
+	destino = txtIdDestino.value; 
+
+	base = 15000;
+	porcentajeDiez = base * 0.1;
+	porcentajeVeinte = base * 0.2;
+
+
+	if (estacion == "Invierno")
+	{
+		switch(destino)
+		{
+			case "Bariloche":
+				mensaje = "El precio final es: $" + (base + porcentajeVeinte); //aumento 20%
+			break;
+			case "Cataratas":
+			case "Cordoba":
+				mensaje = "El precio final es: $" + (base - porcentajeDiez); //descuento 10% 
+			break;
+			case "Mar del plata":
+				mensaje = "El precio final es: $" + (base - porcentajeVeinte); //descuento 20%
+			break;
+		}
+	}
+	else 
+	{
+		if (estacion == "Verano") 
+		{
+			switch(destino)
+			{
+				case "Bariloche":
+					mensaje = "El precio final es: $" + (base - porcentajeVeinte); // descuento 20%
+				break;
+				case "Cataratas":
+				case "Cordoba":
+					mensaje = "El precio final es: $" + (base + porcentajeDiez); //aumento 10% 
+				break;
+				case "Mar del plata":
+					mensaje = "El precio final es: $" + (base + porcentajeVeinte); //aumento 20%
+				break;
+			}
+		}
+		else
+		{
+			switch(destino)
+			{
+				case "Cordoba":
+					mensaje = "El precio final es: $" + (base); // s/d
+				break;
+				default:
+					mensaje = "El precio final es: $" + (base + porcentajeDiez); // aumento 10%
+				break;
+			}
+		}
+	}
 	
+	alert (mensaje);
 
 }//FIN DE LA FUNCIÓN
